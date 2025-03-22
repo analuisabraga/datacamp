@@ -1,4 +1,5 @@
-# Explore the students data using PostgreSQL to find out if you would come to a similar conclusion for international students and see if the length of stay is a contributing factor.
+# Explore the students data using PostgreSQL to find out if you would come to a similar conclusion for international students 
+and see if the length of stay is a contributing factor.
 
 SELECT stay,
 	COUNT(inter_dom) AS count_int, 
