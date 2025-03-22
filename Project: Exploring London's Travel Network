@@ -1,4 +1,4 @@
-# Answer number 1
+# Answer for question number 1
 -- most_popular_transport_types
 SELECT JOURNEY_TYPE, 
 	SUM(JOURNEYS_MILLIONS) as TOTAL_JOURNEYS_MILLIONS
@@ -6,7 +6,7 @@ FROM TFL.JOURNEYS
 GROUP BY JOURNEY_TYPE
 ORDER BY TOTAL_JOURNEYS_MILLIONS DESC;
 
-# Answer number 2
+# Answer for question number 2
 -- emirates_airline_popularity
 SELECT MONTH, 
 	YEAR, 
@@ -16,7 +16,7 @@ WHERE JOURNEY_TYPE = 'Emirates Airline' AND ROUNDED_JOURNEYS_MILLIONS IS NOT NUL
 ORDER BY ROUNDED_JOURNEYS_MILLIONS DESC
 LIMIT 5;
 
-#Answer number 3
+#Answer for question number 3
 -- least_popular_years_tube
 SELECT year, journey_type, SUM(journeys_millions) AS total_journeys_millions
 FROM tfl.journeys
