@@ -12,7 +12,9 @@ This repository contains my solutions to various DataCamp SQL projects aimed at 
 
 The goal of this repository is to:
     - Provide helpful solutions to SQL challenges.
+    
     - Support learners in understanding query logic and best practices.
+    
     - Encourage collaboration and knowledge-sharing in the data analytics community.
 
 🌟 Contributions & Feedback
