@@ -11,6 +11,7 @@ This repository contains my solutions to various DataCamp SQL projects aimed at 
 🎯 Objective
 
 The goal of this repository is to:
+
     - Provide helpful solutions to SQL challenges.
     
     - Support learners in understanding query logic and best practices.
